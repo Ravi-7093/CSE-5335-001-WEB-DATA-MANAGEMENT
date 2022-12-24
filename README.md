@@ -87,7 +87,11 @@ Write an XSLT program math.xsl to display all MATH courses in Reed College by tr
 Consider the XML document available at reed.xml Links to an external site.with DTD reed.dtd Links to an external site.used in Project #7. Express the following queries using XQuery and run them against the file reed.xml using Saxon:
 
 For each MATH course taught in room LIB 204, return an element tagged course with the title, the instructor, the start, and the end times of the course.
+
 For each different course, return an element tagged course with the course title and all the instructor names that teach this course.
+
 For each different department, display the department code and the number of courses taught by the department.
+
 For each different instructor, return an element tagged instructor that contains the name of the instructor and the number of courses taught by the instructor.
+
 For each different instructor, return an element tagged instructor that contains the name of the instructor and the titles of all courses taught by the instructor.
