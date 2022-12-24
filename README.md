@@ -56,5 +56,13 @@ The goal of this project is to develop a web application using PHP and MySQL. Th
 
 You need to re-implement Project 4 using a relational database to store your favorite restaurants. So, like in Project 4, you will store the last city and the search results in the current session, but unlike Project 4, you need to store your favorite restaurants in the database table favorites.
 
+#Project -6
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
+The goal of this project is to develop a photo-album application that uses cloud storage. More specifically, you will use the Dropbox API to create a photo album, in which you can upload, delete, and browse photographs.
 
+You will develop a photo-album application on Dropbox.  To support the following operations:
+
+Provide a form to upload a new image (a local *.jpg file from your PC) on your Dropbox images folder. 
+A display window that lists the names of the images in your Dropbox directory. 
+An image section that displays the current image. 
