@@ -66,3 +66,28 @@ You will develop a photo-album application on Dropbox.  To support the following
 Provide a form to upload a new image (a local *.jpg file from your PC) on your Dropbox images folder. 
 A display window that lists the names of the images in your Dropbox directory. 
 An image section that displays the current image. 
+
+#Project -7
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+You will evaluate DOM, XPath, and XSLT over XML data that represents courses from Reed College, available at reed.xml Links to an external site.with DTD reed.dtd Links to an external site.. More specifically:
+
+Write a plain Java program dom.java that uses the Java DOM API over the XML data in reed.xml to print the titles of all MATH courses that are taught in room LIB 204
+
+Write a plain Java program xpath.java that evaluates the following XPath queries over the XML data in reed.xml:
+Print the titles of all MATH courses that are taught in room LIB 204
+Print the instructor name who teaches MATH 412
+Print the titles of all courses taught by Wieting
+
+Write an XSLT program math.xsl to display all MATH courses in Reed College by transforming the XML file reed.xml to XHTML using XSLT. Your XHTML must contain a table, where each table row is a Math course. Modify the Java program xslt.java Download xslt.javato test your XSLT and then load the resulting html output file on your web browser.
+
+
+#Project -8
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Consider the XML document available at reed.xml Links to an external site.with DTD reed.dtd Links to an external site.used in Project #7. Express the following queries using XQuery and run them against the file reed.xml using Saxon:
+
+For each MATH course taught in room LIB 204, return an element tagged course with the title, the instructor, the start, and the end times of the course.
+For each different course, return an element tagged course with the course title and all the instructor names that teach this course.
+For each different department, display the department code and the number of courses taught by the department.
+For each different instructor, return an element tagged instructor that contains the name of the instructor and the number of courses taught by the instructor.
+For each different instructor, return an element tagged instructor that contains the name of the instructor and the titles of all courses taught by the instructor.
