@@ -49,5 +49,12 @@ yelp.php?city=Arlington+Texas&keywords=Indian+buffet: It calls the Yelp web serv
 yelp.php?store=zIRGIbTPLxjawtBnFULSfw: It copies the restaurant with this business id from the $_SESSION["search"] array to the $_SESSION["favorites"] array.
 yelp.php?reset: It clears all the session values.
 
+#Project -5
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+The goal of this project is to develop a web application using PHP and MySQL. This application will use a database to store and query your all-time favorite restaurants.
+
+
+You need to re-implement Project 4 using a relational database to store your favorite restaurants. So, like in Project 4, you will store the last city and the search results in the current session, but unlike Project 4, you need to store your favorite restaurants in the database table favorites.
+
 
 
